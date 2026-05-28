@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<title>Contact • RateFlix Movies</title>
+
+<link rel="icon" type="image/jpg" href="images/rateflixfevicon.jpg"/>
+
+<link rel="stylesheet" href="style.css"/>
+
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+/>
+
+</head>
+
+<body>
+
+<nav class="navbar">
+<div class="nav-container">
+
+<a href="index.html" class="brand-logo">
+<img src="images/rateflixfevicon.jpg" alt="RateFlix"/>
+<span>RateFlix Movies</span>
+</a>
+
+<div class="nav-links">
+<a href="index.html">Home</a>
+<a href="wishlist.html">Wishlist ❤️</a>
+<a href="about.html">About</a>
+<a href="contact.html" class="active">Contact</a>
+</div>
+
+</div>
+</nav>
+
+<section class="page contact-page">
+
+<div class="contact-layout">
+
+<div class="contact-left">
+
+<div class="hero-badge">
+Get in Touch
+</div>
+
+<h2>Let’s Talk Cinema</h2>
+
+<p>
+Got a recommendation for RateFlix?
+Want a movie added to the collection?
+Found a trailer mismatch?
+Or just want to share your thoughts on cinema?
+
+I’d love to hear from you.
+</p>
+
+<div class="developer-links contact-links">
+
+<a href="mailto:tanvipohankar1@gmail.com">
+<i class="fa-solid fa-envelope"></i>
+</a>
+
+<a href="https://github.com/tanvipohankar-004" target="_blank">
+<i class="fa-brands fa-github"></i>
+</a>
+
+<a href="https://www.linkedin.com/in/tanvi-pohankar-6386682b6/" target="_blank">
+<i class="fa-brands fa-linkedin-in"></i>
+</a>
+
+</div>
+
+</div>
+
+<div class="contact-card">
+
+<form
+class="contact-form"
+id="contactForm"
+action="https://formsubmit.co/tanvipohankar1@gmail.com"
+method="POST"
+>
+
+<input type="hidden" name="_captcha" value="false">
+
+<input
+type="text"
+name="name"
+placeholder="Your Name"
+required
+/>
+
+<input
+type="email"
+name="email"
+placeholder="Your Email"
+required
+/>
+
+<input
+type="text"
+name="movie"
+placeholder="Movie Recommendation"
+/>
+
+<textarea
+name="message"
+placeholder="Write your message..."
+required
+></textarea>
+
+<button type="submit" class="primary-btn">
+Send Message
+</button>
+<p id="formSuccessMessage" class="form-success-message">
+Your response submitted successfully.
+</p>
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+<footer class="footer">
+
+<div class="footer-brand">
+<img src="images/rateflixfevicon.jpg" alt="RateFlix"/>
+<h3>RateFlix Movies</h3>
+</div>
+
+<p>Discover • Rate • Review • Rewatch</p>
+
+<p>let’s have some charcha.</p>
+
+<p class="copyright">
+© 2026 RateFlix Movies. All rights reserved.
+</p>
+
+</footer>
+
+<script>
+document
+.getElementById("contactForm")
+.addEventListener("submit", function(){
+
+setTimeout(() => {
+
+document.getElementById("successMessage").innerText =
+"✅ Your response submitted successfully.";
+
+}, 500);
+
+});
+
+
+</script>
+<script>
+const form = document.querySelector(".contact-form");
+
+if(form){
+form.addEventListener("submit", function(e){
+
+e.preventDefault();
+
+const msg = document.getElementById("formSuccessMessage");
+
+msg.classList.add("show");
+
+form.reset();
+
+setTimeout(()=>{
+msg.classList.remove("show");
+},4000);
+
+});
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8"/>
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0"
+/>
+
+<title>RateFlix Movies</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap"
+rel="stylesheet"
+/>
+
+<link
+rel="icon"
+type="image/jpg"
+href="images/rateflixfevicon.jpg"
+/>
+
+<link
+rel="stylesheet"
+href="style.css"
+/>
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+<div class="nav-container">
+
+<a
+href="index.html"
+class="brand-logo"
+>
+
+<img
+src="images/rateflixfevicon.jpg"
+alt="RateFlix Movies"
+/>
+
+<span>
+
+RateFlix Movies
+
+</span>
+
+</a>
+
+<div class="nav-links">
+
+<a
+href="index.html"
+class="active"
+>
+Home
+</a>
+
+<a href="wishlist.html">
+Wishlist ❤️
+</a>
+
+<a href="about.html">
+About
+</a>
+
+<a href="contact.html">
+Contact
+</a>
+
+</div>
+
+</div>
+
+</nav>
+
+
+
+<header class="hero">
+
+<div class="hero-overlay"></div>
+
+<div class="hero-container">
+
+<div class="hero-left">
+
+<div class="hero-badge">
+
+Your movie ratings.
+Your
+<span class="highlight-red">
+
+charcha.
+
+</span>
+
+</div>
+
+<h1>
+
+<span class="highlight-red">
+
+RateFlix
+
+</span>
+
+Movies
+
+</h1>
+
+<p class="hero-tagline">
+
+let’s have some
+<span class="highlight-red">
+
+charcha.
+
+</span>
+
+</p>
+
+<p class="hero-description">
+
+Discover cinema across Marathi, Bollywood, Telugu, Tamil, animation and global releases.
+
+Watch official trailers, rate movies, save favourites, write reviews and revisit stories worth remembering.
+
+Built for movie lovers.
+
+</p>
+
+<div class="hero-buttons">
+
+<button
+class="primary-btn"
+onclick="scrollToMovies()"
+>
+Explore Movies
+</button>
+
+<button
+class="secondary-btn"
+onclick="openFeaturedTrailer()"
+>
+▶ Watch Trailer
+</button>
+
+</div>
+
+<div class="hero-stats">
+
+<div class="stat-box">
+
+<h3>
+25+
+</h3>
+
+<p>
+Movies
+</p>
+
+</div>
+
+<div class="stat-box">
+
+<h3>
+7+
+</h3>
+
+<p>
+Categories
+</p>
+
+</div>
+
+<div class="stat-box">
+
+<h3>
+∞
+</h3>
+
+<p>
+Conversations
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<div class="hero-right">
+
+<img
+src="images/rateflixfevicon.jpg"
+alt="RateFlix"
+class="hero-brand-image"
+/>
+
+</div>
+
+</div>
+
+</header>
+
+
+
+<section class="discover-panel">
+
+<div class="search-wrapper">
+
+<input
+id="searchInput"
+type="text"
+placeholder="Search movies by title..."
+autocomplete="off"
+/>
+
+</div>
+
+
+<div class="filter-wrapper">
+
+<h3>
+
+Browse by Language
+
+</h3>
+
+<div
+id="languageFilters"
+class="filter-row"
+></div>
+
+</div>
+
+
+<div class="filter-wrapper">
+
+<h3>
+
+Browse by Genre
+
+</h3>
+
+<div
+id="genreFilters"
+class="filter-row"
+></div>
+
+</div>
+
+</section>
+
+
+
+<section
+id="moviesSection"
+class="movies-section"
+>
+
+<div class="section-heading">
+
+<h2>
+
+Trending on RateFlix
+
+</h2>
+
+<p>
+
+Discover what viewers are watching, reviewing and saving.
+
+</p>
+
+</div>
+
+<div
+id="movieGrid"
+class="movie-grid"
+></div>
+
+</section>
+
+
+
+<div
+id="modal"
+class="modal hidden"
+>
+
+<div class="modal-content">
+
+<button
+id="closeModal"
+class="close-modal"
+>
+
+✕
+
+</button>
+
+<div id="modalBody"></div>
+
+</div>
+
+</div>
+
+<footer class="footer">
+
+<div class="footer-brand">
+
+<img
+src="images/rateflixfevicon.jpg"
+alt="RateFlix Movies"
+/>
+
+<h3>
+
+RateFlix Movies
+
+</h3>
+
+</div>
+
+<p>
+
+Discover • Rate • Review • Save • Rewatch
+
+</p>
+
+<p>
+
+let’s have some charcha.
+
+</p>
+
+<p class="copyright">
+
+© 2026 RateFlix Movies. All rights reserved.
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
