@@ -15,6 +15,7 @@
   <a href="https://rateflix-movies.netlify.app/">Rateflix-Movies </a>
 </h1>
 ---
+
 ## About
 
 RateFlix Movies is a responsive movie discovery and review platform built for movie lovers across languages, genres, and cultures.
