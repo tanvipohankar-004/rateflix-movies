@@ -89,10 +89,7 @@ rateflixmovies/
 ├── style.css
 ├── script.js
 │
-├── images/
-│   ├── rateflixfevicon.jpg
-│   ├── posters/
-│   └── movie-assets/
+├── images/  
 │
 └── README.md
 ```
