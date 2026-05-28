@@ -1,7 +1,19 @@
-# RateFlix Movies 🎬
+<p align="center">
+  <img src="images/rateflixfevicon.jpg" width="250" height = "200" alt=" RateFlix Movies ">
+</p>
 
-Discover • Rate • Review • Rewatch
+<h1 align="center">RateFlix Movies</h1>
 
+<p align="center">
+ let’s have some charcha. 🍿
+</p>
+<p align="center">
+  Visit Here 
+</p>
+
+<h1 align="center">
+  <a href="https://rateflix-movies.netlify.app/">Rateflix-Movies </a>
+</h1>
 ---
 ## About
 
